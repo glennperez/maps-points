@@ -38,7 +38,7 @@ bower_components
 build/Release
 
 # Dependency directories
-node_modules/
+node_modules/**/*
 jspm_packages/
 
 # TypeScript v1 declaration files
@@ -102,3 +102,16 @@ dist
 
 # TernJS port file
 .tern-port
+
+# expo
+.expo/*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+web-build/
+
+# macOS
+.DS_Store
